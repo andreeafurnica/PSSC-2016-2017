@@ -13,7 +13,7 @@ namespace ModelProfesor
     public class ProfesorFactory
     {
         public static readonly ProfesorFactory Instance = new ProfesorFactory();
-        private List<InformatiiProfesor> Discipline;
+        
         
 
         private ProfesorFactory()

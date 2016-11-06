@@ -11,8 +11,8 @@ namespace ModelStudent
     public class StudentFactory
     {
         public static readonly StudentFactory Instance = new StudentFactory();
-        private List<InformatiiStudent> _studentiInscrisi;
-        // public ReadOnlyCollection<InformatiiStudent> StudentiInscrisi { get { return _studentiInscrisi.AsReadOnly(); } }
+       
+        
 
         private StudentFactory()
         {
