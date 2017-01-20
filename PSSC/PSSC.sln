@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModelGeneric", "ModelGeneri
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModelDecanat", "Decanat\ModelDecanat.csproj", "{544AF639-17E6-4D90-89AD-E3F41ADFBDBF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC", "MVC\MVC.csproj", "{CE93869B-D3C4-4D38-B9EB-93A5C054986C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -55,6 +57,10 @@ Global
 		{544AF639-17E6-4D90-89AD-E3F41ADFBDBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{544AF639-17E6-4D90-89AD-E3F41ADFBDBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{544AF639-17E6-4D90-89AD-E3F41ADFBDBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE93869B-D3C4-4D38-B9EB-93A5C054986C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE93869B-D3C4-4D38-B9EB-93A5C054986C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE93869B-D3C4-4D38-B9EB-93A5C054986C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE93869B-D3C4-4D38-B9EB-93A5C054986C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

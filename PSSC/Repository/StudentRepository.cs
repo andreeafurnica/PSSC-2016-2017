@@ -7,9 +7,9 @@ using ModelStudent;
 
 namespace Repository
 {
-    class StudentRepository : IRepository<ModelStudent.InformatiiStudent>
+    class StudentRepository : IRepository<ModelStudent.Student>
     {
-        public IEnumerable<InformatiiStudent> List
+        public IEnumerable<Student> List
         {
             get
             {
@@ -17,22 +17,22 @@ namespace Repository
             }
         }
 
-        public void Add(InformatiiStudent entity)
+        public void Add(Student entity)
         {
             throw new NotImplementedException();
         }
 
-        public void Delete(InformatiiStudent entity)
+        public void Delete(Student entity)
         {
             throw new NotImplementedException();
         }
 
-        public InformatiiStudent FindById(int Id)
+        public Student FindById(int Id)
         {
             throw new NotImplementedException();
         }
 
-        public void Update(InformatiiStudent entity)
+        public void Update(Student entity)
         {
             throw new NotImplementedException();
         }

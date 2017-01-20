@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace ModelGeneric
 {
-    public class Nota
+    public class Note
     {
         private decimal _valoare;
         public decimal Valoare { get { return _valoare; } }
 
-        public Nota(decimal valoare)
+        public Note(decimal valoare)
         {
             //Contract.Requires<ArgumentException>(valoare > 0, "valoare");
             //Contract.Requires<ArgumentException>(valoare <= 10, "valoare");
@@ -22,7 +22,7 @@ namespace ModelGeneric
         #region override object
         public override bool Equals(object obj)
         {
-            var nota = (Nota)obj;
+            var nota = (Note)obj;
             return Valoare == nota.Valoare;
         }
 

@@ -41,6 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="InformatiiNota.cs" />
+    <Compile Include="Nota.cs" />
     <Compile Include="NotaFactory.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -7,9 +7,9 @@ using ModelDisciplina;
 
 namespace Repository
 {
-    public class DisciplinaRepository : IRepository<ModelDisciplina.InformatiiDisciplina>
+    public class DisciplinaRepository : IRepository<ModelDisciplina.Disciplina>
     {
-        public IEnumerable<InformatiiDisciplina> List
+        public IEnumerable<Disciplina> List
         {
             get
             {
@@ -17,22 +17,22 @@ namespace Repository
             }
         }
 
-        public void Add(InformatiiDisciplina entity)
+        public void Add(Disciplina entity)
         {
             throw new NotImplementedException();
         }
 
-        public void Delete(InformatiiDisciplina entity)
+        public void Delete(Disciplina entity)
         {
             throw new NotImplementedException();
         }
 
-        public InformatiiDisciplina FindById(int Id)
+        public Disciplina FindById(int Id)
         {
             throw new NotImplementedException();
         }
 
-        public void Update(InformatiiDisciplina entity)
+        public void Update(Disciplina entity)
         {
             throw new NotImplementedException();
         }

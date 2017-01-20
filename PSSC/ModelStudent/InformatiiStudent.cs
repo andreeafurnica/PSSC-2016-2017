@@ -1,4 +1,6 @@
-﻿using ModelGeneric;
+﻿using ModelDisciplina;
+using ModelGeneric;
+using ModelNota;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics.Contracts;
@@ -10,15 +12,12 @@ namespace ModelStudent
 {
     public class InformatiiStudent
     {
-        public Guid IdStudent { get; internal set; }
-        public NumarMatricol NumarMatricol {get; internal set;}
-        public PlainText NumeStudent { get; internal set; }
-        internal InformatiiStudent(NumarMatricol NrMatricol, PlainText Nume)
+        public Disciplina Disciplina { get; internal set; }
+        public Nota Nota { get; internal set; }
+        internal InformatiiStudent(Nota N, Disciplina Discip)
         {
-            Contract.Requires(NrMatricol != null, "numar matricol");
-            Contract.Requires(Nume != null, "nume");
-            NumarMatricol = NrMatricol;
-            NumeStudent = Nume;
+            Nota = N;
+            Disciplina = Discip;
         }
 
     }

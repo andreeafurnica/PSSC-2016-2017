@@ -7,9 +7,9 @@ using ModelNota;
 
 namespace Repository
 {
-    class NotaRepository : IRepository<ModelNota.InformatiiNota>
+    class NotaRepository : IRepository<ModelNota.Nota>
     {
-        public IEnumerable<InformatiiNota> List
+        public IEnumerable<Nota> List
         {
             get
             {
@@ -17,22 +17,22 @@ namespace Repository
             }
         }
 
-        public void Add(InformatiiNota entity)
+        public void Add(Nota entity)
         {
             throw new NotImplementedException();
         }
 
-        public void Delete(InformatiiNota entity)
+        public void Delete(Nota entity)
         {
             throw new NotImplementedException();
         }
 
-        public InformatiiNota FindById(int Id)
+        public Nota FindById(int Id)
         {
             throw new NotImplementedException();
         }
 
-        public void Update(InformatiiNota entity)
+        public void Update(Nota entity)
         {
             throw new NotImplementedException();
         }

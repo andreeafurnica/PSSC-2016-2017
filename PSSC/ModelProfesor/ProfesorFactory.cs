@@ -18,19 +18,19 @@ namespace ModelProfesor
 
         private ProfesorFactory()
         {
-
+            List<Profesor> ListaProfesori = new List<Profesor>();
         }
 
-        public InformatiiProfesor CreeazaProfesor(int Id, string Nume)
+        public Profesor CreeazaProfesor(int Id, string nume)
         {
-            Contract.Requires<ArgumentNullException>(Nume != null, "text");
+            Contract.Requires<ArgumentNullException>(nume != null, "text");
             Contract.Requires<ArgumentInvalidLengthException>(
-                     Nume.Length >= 2 && Nume.Length <= 50,
+                     nume.Length >= 2 && nume.Length <= 50,
                     "Numele profesorului trebuie sa contina intre 2 si 50 de caractere.");
 
-            var profesor = new InformatiiProfesor(
+            var profesor = new Profesor(
                                         Id,
-                                        new PlainText(Nume));
+                                        new PlainText(nume));
 
             return profesor;
         }

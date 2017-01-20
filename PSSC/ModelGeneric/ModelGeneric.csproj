@@ -43,7 +43,7 @@
     <Compile Include="Coeficient.cs" />
     <Compile Include="Exception\ArgumentCannotBeEmptyStringException.cs" />
     <Compile Include="Exception\ArgumentInvalidLengthException.cs" />
-    <Compile Include="Nota.cs" />
+    <Compile Include="Note.cs" />
     <Compile Include="NumarMatricol.cs" />
     <Compile Include="PlainText.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

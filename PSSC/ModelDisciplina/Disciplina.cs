@@ -7,21 +7,16 @@ using System.Threading.Tasks;
 
 namespace ModelDisciplina
 {
-    public class InformatiiDisciplina
+   public class Disciplina
     {
         public int IdDisciplina { get; internal set; }
-        public  PlainText NumeDisciplina { get; internal set; }
-        public int NumarCredite { get; internal set; }
+        public PlainText NumeDisciplina { get; internal set; }
 
-    internal InformatiiDisciplina(int Id, PlainText Nume, int NrCredite)
+
+        internal Disciplina(int Id, PlainText Nume)
         {
             IdDisciplina = Id;
             NumeDisciplina = Nume;
-            NumarCredite = NrCredite;
         }
-
-
-
-
     }
 }

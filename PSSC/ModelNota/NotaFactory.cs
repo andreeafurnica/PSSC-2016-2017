@@ -17,19 +17,29 @@ namespace ModelNota
 
         private NotaFactory()
         {
-
+            List<Nota> ListaNote = new List<Nota>();
         }
 
-        public InformatiiNota CreeazaNota(decimal Actvitate, decimal Examen)
+        public Nota CreeazaNotaExamen(Note Activitate, Note Examen)
         {
-            
 
-            var nota = new InformatiiNota(
-                                        new Nota(Actvitate),
-                                        new Nota(Examen));
+            var nota = new Nota(
+                                Activitate,
+                                Examen);
 
             return nota;
         }
+        public Nota CreeazaNotaDistribuita(Note Activitate, Note D1, Note D2)
+        {
+
+            var nota = new Nota(
+                                Activitate,
+                                D1,
+                                D2);
+
+            return nota;
+        }
+
     }
 
 }

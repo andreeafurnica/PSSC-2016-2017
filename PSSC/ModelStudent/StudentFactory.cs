@@ -16,10 +16,10 @@ namespace ModelStudent
 
         private StudentFactory()
         {
-
+            List<Student>ListaStudenti = new List<Student>();
         }
 
-        public InformatiiStudent CreeazaDisciplina(string NrMatricol, string Nume )
+        public Student CreeazaStudent(string NrMatricol, string Nume )
         {
             Contract.Requires<ArgumentNullException>(NrMatricol != null, "text");
             
@@ -32,7 +32,7 @@ namespace ModelStudent
                      NrMatricol.Length >= 2 && NrMatricol.Length <= 50,
                     "Numarul Matricol al studentului trebuie sa contina 4 caractere.");
 
-            var student = new InformatiiStudent(
+            var student = new Student(
                                         new NumarMatricol(NrMatricol),
                                         new PlainText(Nume));
 

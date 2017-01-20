@@ -41,13 +41,22 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="InformatiiProfesor.cs" />
+    <Compile Include="Profesor.cs" />
     <Compile Include="ProfesorFactory.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\ModelDisciplina\ModelDisciplina.csproj">
+      <Project>{3b7cd938-949b-4208-a72a-43b2ba9e3683}</Project>
+      <Name>ModelDisciplina</Name>
+    </ProjectReference>
     <ProjectReference Include="..\ModelGeneric\ModelGeneric.csproj">
       <Project>{507e926a-f810-4951-9fb0-aee3171192e8}</Project>
       <Name>ModelGeneric</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ModelNota\ModelNota.csproj">
+      <Project>{6ecbceea-d2ab-4f31-b664-97cdb1dc63bd}</Project>
+      <Name>ModelNota</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
